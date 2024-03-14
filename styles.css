@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(22, 25, 46);
+    /* background-color: rgb(22, 25, 46); */
+    background-color: white;
     margin-left: 70px;
 }
 h1 {
@@ -22,7 +23,7 @@ input{
     border: 2px solid;
     border-radius: 10px;
 }
-button{
+#adddata{
     margin-top: 15px;
     width: 140px;
     height: 40px;
@@ -32,4 +33,26 @@ button{
     font-weight: bolder;
     border-color: black;
     border-radius: 10px;    
+}
+table{
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    width:80%;
+}
+td,th{
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+#deldata{
+    width: 100px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:200;
+    border-color: black;
+    border-radius: 10px; 
 }
